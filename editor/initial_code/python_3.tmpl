@@ -1,1 +1,23 @@
+{% comment %}New initial code template{% endcomment %}
+{% block env %}{% endblock env %}
 
+{% block start %}
+def r1(hand: set) -> set:
+    # your code here
+    return {}
+{% endblock start %}
+
+{% block example %}
+print('Example')
+print(r1({['m2', 's9', 'p9', 'dg', 's3', 's2', 'm1', 's8', 'dg', 'p9', 'dg', 's7', 's1', 'm3']}))
+{% endblock %}
+
+{% block tests %}
+{% for t in tests %}
+assert {% block call %}mult_two({{t.input.0}}, {{t.input.1}})
+{% endblock %} == {% block result %}{{t.answer}}{% endblock %}{% endfor %}
+{% endblock %}
+
+{% block final %}
+print("Now, what about 'Check solution'?")
+{% endblock final %}
