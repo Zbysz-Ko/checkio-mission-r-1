@@ -10,13 +10,10 @@ api.add_listener(
     CheckiOReferee(
         tests=TESTS,
         function_name={
-            "python": "mult_two",
-            "js": "multTwo"
+            "python": "r1"
         },
         cover_code={
-            'python-3': {},
-            'js-node': {
-                # "dateForZeros": True,
+            'python-3': {}
             }
         }
     ).on_ready)
