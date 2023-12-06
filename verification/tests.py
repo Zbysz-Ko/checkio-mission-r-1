@@ -16,17 +16,17 @@ TESTS = {
             "explanation": "pinfu yaku"
         },
         {
-            "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
+            "input": {'m2', 'm3', 'm4', 'm4', 'm4', 'm8', 'm8', 'm8', 'p4', 'p5', 'p6', 's5', 's6', 's7'},
             "answer": {'m234', 'm44', 'm888', 'p456', 's567'}
             "explanation": "tanyao yaku"
         },
         {
-            "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
+            "input": {'m3', 'm4', 'm5', 'p2', 'p2', 's1', 's2', 's3', 's4', 's5', 's6', 's7', 's8', 's9'},
             "answer": {'m345', 'p22', 's123', 's456', 's789'}
             "explanation": "izzu yaku"
         },
         {
-            "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
+            "input": {'m1', 'm2', 'm3', 'm9', 'm9', 's7', 's8', 's9', 'ws', 'ws', 'ws', 'dr', 'dr', 'dr'},
             "answer": {'m123', 'm99', 's789', 'wss', 'drrr'}
             "explanation": "chanta yaku"
         }
