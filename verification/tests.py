@@ -38,12 +38,12 @@ TESTS = {
             "explanation": "iipeyko yaku"
         },
         {
-            "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
+            "input": {'m1', 'm2', 'm3', 'm9', 'm9', 's2', 's2', 's2', 's5', 's6', 's7', 'dg', 'dg', 'dg'},
             "answer": {'m123', 'm99', 's222', 's567', 'dggg'}
             "explanation": "yakuhay yaku"
         },
         {
-            "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
+            "input": {'m7', 'm8', 'm9', 'p7', 'p8', 'p9', 's2', 's3', 's4', 's7', 's8', 's9', 'we', 'we'},
             "answer": {'m789', 'p789', 's234', 's789', 'wee'}
             "explanation": "sanshoku dochzun yaku"
         },
