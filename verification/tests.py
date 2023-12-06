@@ -48,17 +48,17 @@ TESTS = {
             "explanation": "sanshoku dochzun yaku"
         },
         {
-            "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
+            "input": {'m1', 'm1', 'm4', 'm4', 'm4', 'p4', 'p4', 'p4', 's4', 's4', 's4', 's4', 's5', 's6'},
             "answer": {'m11', 'm444', 'p444', 's444', 's456'}
             "explanation": "sanshoku doko yaku"
         },
         {
-            "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
+            "input": {'p1', 'p1', 'p1', 'p5', 'p5', 'p5', 's8', 's8', 's8', 's9', 's9', 's9', 'ws', 'ws'},
             "answer": {'p111', 'p555', 's888', 's999', 'wss'}
             "explanation": "toy-toy yaku"
         },
         {
-            "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
+            "input": {'m2', 'm3', 'm4', 'we', 'we', 'dr', 'dr', 'dr', 'dw', 'dw', 'dw', 'dg', 'dg', 'dg'},
             "answer": {'m234', 'wee', 'drrr', 'dwww', 'dggg'}
             "explanation": "daysangen yakuman"
         }
