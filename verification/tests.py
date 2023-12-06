@@ -11,9 +11,9 @@ Each test is a dict with
 TESTS = {
     "Basics": [
         {
-            "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
-            "answer": {'', '', '', '', ''}
-            "explanation": "yaku"
+            "input": {'m7', 'm8', 'm9', 'p2', 'p3', 'p4', 's3', 's4', 's5', 's5', 's6', 's7', 'wn', 'wn'},
+            "answer": {'m789', 'p234', 's345', 's567', 'wnn'}
+            "explanation": "pinfu yaku"
         },
         {
             "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
