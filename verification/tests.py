@@ -59,8 +59,8 @@ TESTS = {
         },
         {
             "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
-            "answer": {'', '', '', '', ''}
-            "explanation": "yaku"
+            "answer": {'m234', 'wee', 'drrr', 'dwww', 'dggg'}
+            "explanation": "daysangen yakuman"
         }
     ]
 }
