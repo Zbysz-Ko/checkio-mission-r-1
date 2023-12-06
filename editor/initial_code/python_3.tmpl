@@ -3,7 +3,7 @@ def r1(hand: set) -> set:
     return {}
 
 print('Example:')
-print(r1({['m2', 's9', 'p9', 'dg', 's3', 's2', 'm1', 's8', 'dg', 'p9', 'dg', 's7', 's1', 'm3']}))
+print(r1({'m2', 's9', 'p9', 'dg', 's3', 's2', 'm1', 's8', 'dg', 'p9', 'dg', 's7', 's1', 'm3'}))
 
 assert r1({'m1', 'm2', 'm3', 'p9', 'p9', 's1', 's2', 's3', 's7', 's8', 's9', 'dg', 'dg', 'dg'}) == {'m123', 'p99', 's123', 's789', 'dggg'}, "1st example, simple"
 assert r1({'m3', 'm4', 'm5', 'm5', 'm6', 'm7', 'm9', 'm9', 'm9', 's4', 's4', 's4', 'ws', 'ws'}) == {'m345', 'm567', 'm999', 's444', 'wss'}, "2nd example, overlapping first"
