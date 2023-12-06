@@ -10,7 +10,7 @@ api.add_listener(
     CheckiOReferee(
         tests=TESTS,
         function_name={
-            "python": "r1"
+            "python": "riichi_mahjong_sets"
         },
         cover_code={
             'python-3': {}
