@@ -1,14 +1,14 @@
-def r1(hand: list) -> list:
+def riichi_mahjong_sets(hand: list) -> list:
     # your code here
     return []
 
 print('Example:')
-print(r1(['m2', 's9', 'p9', 'dg', 's3', 's2', 'm1', 's8', 'dg', 'p9', 'dg', 's7', 's1', 'm3']))
+print(riichi_mahjong_sets(['m2', 's9', 'p9', 'dg', 's3', 's2', 'm1', 's8', 'dg', 'p9', 'dg', 's7', 's1', 'm3']))
 
-assert r1(['m1', 'm2', 'm3', 'p9', 'p9', 's1', 's2', 's3', 's7', 's8', 's9', 'dg', 'dg', 'dg']) == ['m123', 'p99', 's123', 's789', 'dggg'], "1st example, simple"
-assert r1(['m3', 'm4', 'm5', 'm5', 'm6', 'm7', 'm9', 'm9', 'm9', 's4', 's4', 's4', 'ws', 'ws']) == ['m345', 'm567', 'm999', 's444', 'wss'], "2nd example, overlapping first"
-assert r1(['p1', 'p2', 'p3', 'p4', 'p5', 'p5', 'p6', 'p6', 'p7', 'ww', 'ww', 'dr', 'dr', 'dr']) == ['p123', 'p456', 'p567', 'www', 'drrr'], "3rd example, overlapping second"
-assert r1(['m5', 'm6', 'm7', 'm8', 'm8', 'p4', 'p5', 'p6', 's6', 's7', 's8', 's9', 's9', 's9']) == ['m567', 'm88', 'p456', 's678', 's999'], "4th example, chi + pair, what is what?"
-assert r1(['m2', 'm2', 'm2', 'p6', 'p7', 'p8', 's1', 's1', 's4', 's5', 's6', 's8', 's8', 's8']) == ['m222', 'p678', 's11', 's456', 's888'], "5th example, simple again"
+assert riichi_mahjong_sets(['m1', 'm2', 'm3', 'p9', 'p9', 's1', 's2', 's3', 's7', 's8', 's9', 'dg', 'dg', 'dg']) == ['m123', 'p99', 's123', 's789', 'dggg'], "1st example, simple"
+assert riichi_mahjong_sets(['m3', 'm4', 'm5', 'm5', 'm6', 'm7', 'm9', 'm9', 'm9', 's4', 's4', 's4', 'ws', 'ws']) == ['m345', 'm567', 'm999', 's444', 'wss'], "2nd example, overlapping first"
+assert riichi_mahjong_sets(['p1', 'p2', 'p3', 'p4', 'p5', 'p5', 'p6', 'p6', 'p7', 'ww', 'ww', 'dr', 'dr', 'dr']) == ['p123', 'p456', 'p567', 'www', 'drrr'], "3rd example, overlapping second"
+assert riichi_mahjong_sets(['m5', 'm6', 'm7', 'm8', 'm8', 'p4', 'p5', 'p6', 's6', 's7', 's8', 's9', 's9', 's9']) == ['m567', 'm88', 'p456', 's678', 's999'], "4th example, chi + pair, what is what?"
+assert riichi_mahjong_sets(['m2', 'm2', 'm2', 'p6', 'p7', 'p8', 's1', 's1', 's4', 's5', 's6', 's8', 's8', 's8']) == ['m222', 'p678', 's11', 's456', 's888'], "5th example, simple again"
 
 print("Now, what about 'Check solution'?")
