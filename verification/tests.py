@@ -44,6 +44,16 @@ TESTS = {
         },
         {
             "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
+            "answer": {'m789', 'p789', 's234', 's789', 'wee'}
+            "explanation": "sanshoku dochzun yaku"
+        },
+        {
+            "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
+            "answer": {'m11', 'm444', 'p444', 's444', 's456'}
+            "explanation": "sanshoku doko yaku"
+        },
+        {
+            "input": {'', '', '', '', '', '', '', '', '', '', '', '', '', ''},
             "answer": {'', '', '', '', ''}
             "explanation": "yaku"
         }
