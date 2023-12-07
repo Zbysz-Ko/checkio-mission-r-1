@@ -11,7 +11,7 @@ api.add_listener(
     ON_CONNECT,
     CheckiOReferee(
         tests=TESTS,
-        cheker = checker,
+        checker = checker,
         function_name={
             "python": "riichi_mahjong_sets"
         },
