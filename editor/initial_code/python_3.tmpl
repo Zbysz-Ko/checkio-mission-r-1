@@ -14,11 +14,9 @@ print(riichi_mahjong_sets(['m2', 's9', 'p9', 'dg', 's3', 's2', 'm1', 's8', 'dg',
 
 # These "asserts" are used for self-checking
 {% block tests %}
-assert riichi_mahjong_sets(['s7', 'dg', 's3', 's2', 'p9', 's1', 'dg', 's8', 'm1', 'dg', 'p9', 's9', 'm2', 'm3']) == ['dggg', 'm123', 'p99', 's123', 's789'], "1st example, simple"
-assert riichi_mahjong_sets(['m6', 'm9', 'm9', 's4', 'm9', 'm5', 's4', 'm3', 'ws', 'm4', 's4', 'm7', 'm5', 'ws']) == ['m345', 'm567', 'm999', 's444', 'wss'], "2nd example, overlapping first"
-assert riichi_mahjong_sets(['dr', 'p1', 'p7', 'ww', 'p6', 'p2', 'p5', 'p6', 'dr', 'p5', 'p4', 'dr', 'ww', 'p3']) == ['drrr', 'p123', 'p456', 'p567', 'www'], "3rd example, overlapping second"
-assert riichi_mahjong_sets(['p6', 's8', 's9', 'm5', 'p5', 'm6', 's6', 's7', 's9', 'm8', 'm8', 'p4', 'm7', 's9']) == ['m567', 'm88', 'p456', 's678', 's999'], "4th example, chi + pair, what is what?"
-assert riichi_mahjong_sets(['s8', 's4', 'm2', 'p6', 's1', 's8', 'p8', 's1', 's6', 's8', 'm2', 'm2', 'p7', 's5']) == ['m222', 'p678', 's11', 's456', 's888'], "5th example, simple again"
+{% for t in tests %}
+assert {% block call %}riichi_mahjong_sets({{t.input|p_args}})
+{% endblock %} == {% block result %}{{t.answer|p}}{% endblock %}{% endfor %}
 {% endblock %}
 
 {% block final %}
