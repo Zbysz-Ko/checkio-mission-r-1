@@ -9,5 +9,11 @@ Each test is a dict with
 
 
 TESTS = {
-    
+    "Basics": [
+        {
+            "input": ['m7', 's6', 'p2', 'm9', 's5', 'wn', 's3', 'p4', 's4', 'p3', 's5', 'm8', 's7', 'wn'],
+            "answer": ['m789', 'p234', 's345', 's567', 'wnn'],
+            "explanation": "pinfu yaku"
+        }
+    ]
 }
