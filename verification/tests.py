@@ -27,7 +27,7 @@ TESTS = {
         },
         {
             "input": [['s8', 's9', 'm1', 'ws', 'dr', 's7', 'dr', 'm9', 'ws', 'm9', 'm2', 'dr', 'm3', 'ws']],
-            "answer": ['m123', 'm99', 's789', 'wss', 'drrr'],
+            "answer": ['drrr', 'm123', 'm99', 's789', 'wss'],
             "explanation": "chanta yaku"
         }
     ],
@@ -39,7 +39,7 @@ TESTS = {
         },
         {
             "input": [['m9', 'm2', 'm1', 's7', 's6', 'dg', 'm9', 's2', 'dg', 's5', 'm3', 's2', 's2', 'dg']],
-            "answer": ['m123', 'm99', 's222', 's567', 'dggg'],
+            "answer": ['dggg', 'm123', 'm99', 's222', 's567'],
             "explanation": "yakuhay yaku"
         },
         {
@@ -59,7 +59,7 @@ TESTS = {
         },
         {
             "input": [['dw', 'we', 'm4', 'dr', 'dg', 'dg', 'dg', 'm3', 'm2', 'we', 'dw', 'dr', 'dw', 'dr']],
-            "answer": ['m234', 'wee', 'drrr', 'dwww', 'dggg'],
+            "answer": ['dggg', 'drrr', 'dwww', 'm234', 'wee'],
             "explanation": "daysangen yakuman"
         }
     ]
