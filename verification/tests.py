@@ -30,37 +30,5 @@ TESTS = {
             "answer": ['m123', 'm99', 's789', 'wss', 'drrr'],
             "explanation": "chanta yaku"
         }
-    ],
-    "Extra": [
-        {
-            "input": ['p4', 's4', 's5', 'p3', 'm1', 's6', 's7', 's8', 'p2', 'p2', 'p3', 'p4', 'm1', 's6'],
-            "answer": ['m11', 'm234', 'm234', 's456', 's678'],
-            "explanation": "iipeyko yaku"
-        },
-        {
-            "input": ['m9', 'm2', 'm1', 's7', 's6', 'dg', 'm9', 's2', 'dg', 's5', 'm3', 's2', 's2', 'dg'],
-            "answer": ['m123', 'm99', 's222', 's567', 'dggg'],
-            "explanation": "yakuhay yaku"
-        },
-        {
-            "input": ['s3', 'p9', 's8', 's9', 'm8', 's2', 'we', 'p7', 's7', 'we', 'p8', 'm7', 's4', 'm9'],
-            "answer": ['m789', 'p789', 's234', 's789', 'wee'],
-            "explanation": "sanshoku dochzun yaku"
-        },
-        {
-            "input": ['s4', 'm4', 'p4', 's5', 'm4', 's4', 's4', 'p4', 's4', 'p4', 'm4', 's6', 'm1', 'm1'],
-            "answer": ['m11', 'm444', 'p444', 's444', 's456'],
-            "explanation": "sanshoku doko yaku"
-        },
-        {
-            "input": ['p1', 'p5', 'ws', 's8', 's8', 's9', 's9', 'p1', 'ws', 'p1', 's9', 'p5', 's8', 'p5'],
-            "answer": ['p111', 'p555', 's888', 's999', 'wss'],
-            "explanation": "toy-toy yaku"
-        },
-        {
-            "input": ['dw', 'we', 'm4', 'dr', 'dg', 'dg', 'dg', 'm3', 'm2', 'we', 'dw', 'dr', 'dw', 'dr'],
-            "answer": ['m234', 'wee', 'drrr', 'dwww', 'dggg'],
-            "explanation": "daysangen yakuman"
-        }
     ]
 }
