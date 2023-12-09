@@ -27,14 +27,14 @@ TESTS = {
         },
         {
             "input": [['s8', 's9', 'm1', 'ws', 'dr', 's7', 'dr', 'm9', 'ws', 'm9', 'm2', 'dr', 'm3', 'ws']],
-            "answer": ['drrr', 'm123', 'm99', 's789', 'wss'],
+            "answer": ['drrr', 'm123', 'm99', 's789', 'wsss'],
             "explanation": "chanta yaku"
         }
     ],
 "Extra": [
         {
             "input": [['p4', 's4', 's5', 'p3', 'm1', 's6', 's7', 's8', 'p2', 'p2', 'p3', 'p4', 'm1', 's6']],
-            "answer": ['m11', 'm234', 'm234', 's456', 's678'],
+            "answer": ['m11', 'p234', 'p234', 's456', 's678'],
             "explanation": "iipeyko yaku"
         },
         {
