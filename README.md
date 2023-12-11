@@ -1,1 +1,1 @@
-This is my first task, so please tell me if I'm doing something wrong.
+First mission about riichi mahjong for checkio.
